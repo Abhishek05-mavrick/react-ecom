@@ -1,0 +1,7 @@
+@media (max-width: 760px) {
+  .header-container { padding: 14px 16px; flex-wrap: wrap; }.header-banner { padding: 8px 16px; }
+  .header-info { width: 100%; justify-content: space-between; }
+  .login-form { flex: 1; }.login-form input { min-width: 0; flex: 1; }
+  .app-layout { display: block; }.navigation-bar { width: 100%; padding: 8px; overflow-x: auto; }.nav-container { flex-direction: row; }.nav-item { width: auto; white-space: nowrap; }
+  .page-section { padding: 24px 16px; }.stats, .product-grid, .products-grid, .cart-layout, .checkout-layout { grid-template-columns: 1fr; }.section-heading { align-items: stretch; flex-direction: column; }.search { width: 100%; }.cart-item { grid-template-columns: 1fr 55px; }.cart-item strong:nth-child(3), .cart-item .delete-button { grid-column: 2; }.debug-panel { position: static; width: auto; margin: 0 16px 16px; }
+}
